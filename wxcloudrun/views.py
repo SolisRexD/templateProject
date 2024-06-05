@@ -3,11 +3,11 @@ import logging
 
 from django.http import JsonResponse
 from django.shortcuts import render
-from wxcloudrun.models import Counters
-
-logger = logging.getLogger('log')
+from ..wxcloudrun.models import Counters
 from django.http import JsonResponse
 from django.views import View
+
+logger = logging.getLogger('log')
 
 
 class SimpleLoginView(View):

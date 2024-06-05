@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-from wxcloudrun import views
+from ..wxcloudrun import views
 from django.conf.urls import url
 
 from django.urls import path
